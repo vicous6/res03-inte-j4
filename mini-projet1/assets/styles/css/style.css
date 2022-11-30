@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: grey;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+main section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px dotted white;
+  border-bottom: 1px dotted white;
+}
+
+div {
+  border-right: 1px dotted white;
+  border-left: 1px dotted white;
+}
+
+/*# sourceMappingURL=style.css.map */
